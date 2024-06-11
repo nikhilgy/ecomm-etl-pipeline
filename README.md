@@ -19,6 +19,13 @@ This repository contains a set of Spark ETL workflows designed to extract, trans
     - `loader.py`: Defines data loading logic.
     - `spark_context.py`: Initializes the Spark session.
 
+### Workflows
+
+- `FirstWorkflow`: Get all customers who bought AirPods after buying an iPhone.
+- `SecondWorkflow`: Get all customers who bought only AirPods and iPhone.
+- `ThirdWorkflow`: Get all products bought after their initial purchase for each customer .
+- `FourthWorkflow`: Determine average time delay between buying an iPhone and AirPods for customers.
+
 ### Usage
 
 1. Make sure you have Docker installed on your machine.

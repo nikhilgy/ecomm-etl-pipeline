@@ -28,7 +28,9 @@ class FirstWorkflow:
 
 
 class SecondWorkflow:
-    
+    """
+    Get all customers who bought only AirPods & iPhone
+    """    
     def __init__(self):
         pass
 
@@ -59,6 +61,9 @@ class SecondWorkflow:
 
 
 class ThirdWorkflow:
+    """
+    Get all products bought after their initial purchase
+    """
     
     def __init__(self):
         pass
@@ -81,6 +86,9 @@ class ThirdWorkflow:
         ).load_data_frame()
 
 class FourthWorkflow:
+    """
+    Determine average time delay between buying an iphone and airpods for customer
+    """
     
     def __init__(self):
         pass
